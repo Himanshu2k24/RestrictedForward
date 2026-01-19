@@ -1,13 +1,13 @@
 import os
 
 # Bot token @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8179291116:AAGjClkWSlsOZtJLeo-fsLZFGXuoIJlzqAE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8585005246:AAGVzgp-0Jd2f7p075ILa7CYYwVy1aUtj_w")
 
 # Your API ID from my.telegram.org
-API_ID = int(os.environ.get("API_ID", "5625170"))
+API_ID = int(os.environ.get("API_ID", "36409891"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "77633c2757f8697650e0c31cf505ffbc")
+API_HASH = os.environ.get("API_HASH", "71f620b6c208c382268de45fdc8cc943")
 
 # Your Owner / Admin Id For Broadcast 
 ADMINS = int(os.environ.get("ADMINS", "5723551431"))
@@ -21,4 +21,4 @@ DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
 
 # Database channel ID
-DATABASE_CHANNEL = -1001631127601  # Replace with your channel ID
+DATABASE_CHANNEL = -1003579327325  # Replace with your channel ID
